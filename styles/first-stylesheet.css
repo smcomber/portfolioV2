@@ -1,1 +1,86 @@
-first stylesheet
+html {
+    background-color:lightgray;
+}
+body {
+    font-family:helvetica, arial, sans-serif; 
+    width:80%;
+    margin:0 auto 2rem;
+    background-color:#fff;
+    color:#444;
+}
+a {
+    text-decoration:none;
+    color:cadetblue;
+}
+p {
+  text-align:left;
+}
+header {
+    padding:1rem 0 0;
+    text-align:center;
+    border-bottom:4px solid #333;
+    width:100%;
+    background-color:#fcf9f3;
+}
+header ul {
+    list-style:none;
+}
+header li {
+    display:inline;
+    background-color:cadetblue;
+    padding:.3rem .6rem;
+    margin:0 .5rem
+}
+header a {
+    color:#fff;
+}
+h2 {
+    text-align:center;
+}
+article {
+    padding:1rem 2rem;
+}
+section {
+    border-top:1px dotted #444;
+    padding:1rem 0;
+    text-align:center;
+}
+section p {
+    margin-bottom:.5rem;
+    font-size:1.3rem
+}
+section img {
+    display:block;
+    margin:0 auto;
+    margin-bottom:1rem;
+}
+aside {
+    width:50%;
+    margin:1.5rem auto 2.5rem;
+    padding:1rem 1rem .5rem;
+    background-color:lightgray;
+}
+aside img {
+    float:left;
+    width:20%;
+    margin-right:1rem;
+}
+aside h3 {
+    margin-top:.5rem;
+}
+footer {
+    background-color:cadetblue;
+    padding:.1rem 1rem;
+    font-size:.8rem;
+    text-align:right;
+}
+footer a {
+    color:#fff;
+}
+#contact article {
+  width:50%;
+  margin:0 auto;
+}
+#contact p {
+  font-size:1.3rem;
+}
